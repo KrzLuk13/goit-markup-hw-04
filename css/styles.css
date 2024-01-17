@@ -252,7 +252,7 @@ body {
   background: var(--color-cloud);
   color: var(--color-iris);
   text-align: center;
-  display: flex;
+  display: block;
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
@@ -549,4 +549,12 @@ img {
 
 .socials-icons-display {
   fill: var(--color-cloud);
+}
+.buttons-link {
+  display: block;
+}
+.buttons-link:hover,
+.buttons-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
