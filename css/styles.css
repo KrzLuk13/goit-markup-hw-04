@@ -434,9 +434,7 @@ img {
   margin-bottom: 8px;
 }
 
-.svgs {
-  fill: var(--color-cloud);
-}
+/*.svgs */
 
 .logos-people {
   display: flex;
